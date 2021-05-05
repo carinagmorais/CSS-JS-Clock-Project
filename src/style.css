@@ -1,5 +1,5 @@
 html {
-  background: url(https://unsplash.it/1500/1000?image=881&blur=5);
+  background: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v722-aum-30c_1.jpg?w=1300&dpr=1&fit=default&crop=default&q=80&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=75fa97726dcf353959cf5f04b5e0c586);
   background-size: cover;
   font-family: "helvetica neue";
   text-align: center;
@@ -42,6 +42,6 @@ body {
   top: 50%;
   transform-origin: 100%;
   transform: rotate(90deg);
-  transition-timing-function: ease-in-out;
+  transition-timing-function: cubic-bezier(1, -0.02, 0, 1.29);
   transition: all 0.05s;
 }
